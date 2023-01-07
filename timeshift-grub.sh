@@ -11,6 +11,14 @@ set -e
 #
 ##################################################################################################################
 
+# data erstellen 
+echo "data-Ordner erstellen !"
+mkdir data
+
+# timeshift installieren
+echo "Timeshift installieren !!"
+sudo apt install timeshift -y
+
 # In data-Ordner wechseln
 cd /home/$USER/data
 
