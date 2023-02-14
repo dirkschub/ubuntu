@@ -12,8 +12,8 @@ set -e
 ##################################################################################################################
 
 # data erstellen 
-echo "data-Ordner erstellen !"
-mkdir data
+#echo "data-Ordner erstellen !"
+#mkdir data
 
 # timeshift installieren
 echo "Timeshift installieren !!"
@@ -30,8 +30,8 @@ sudo make install
 
 # Get grub-btrfs
 echo "Hole grub-btrfs !"
-git clone git clone https://github.com/Antynea/grub-btrfs.git
-cd /home/$USER/grub-btrfs
+git clone https://github.com/Antynea/grub-btrfs.git
+cd grub-btrfs
 sudo make install
 
 

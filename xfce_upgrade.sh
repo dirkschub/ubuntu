@@ -1,3 +1,4 @@
+
 #!/bin/bash
 set -e
 ##################################################################################################################
@@ -17,11 +18,11 @@ sudo add-apt-repository ppa:xubuntu-dev/staging
 
 # Update and Upgrade
 
-<<<<<<< HEAD
+
 sudo apt update && sudo apt dist-upgrade
-=======
+
 sudo apt update && sudo apt dist-upgrade -y
->>>>>>> c53253a0fc6a4161dab8b4578e177b1a4b55a347
+
 
 echo "################################################################"
 echo "###################   Xfce has been upgraded !  ################"
